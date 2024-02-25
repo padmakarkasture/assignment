@@ -22,6 +22,9 @@ class Chandrayan {
             case 'E':
                 this.x = this.x + distance
                 break;
+            case 'W':
+                this.x = this.x - distance
+                break;
         }
     }
 }
