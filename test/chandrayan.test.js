@@ -87,33 +87,24 @@ describe("Move chandrayan3",()=>{
 })
 
 describe('Turn chandrayan3', () => { 
-test('turn to North',()=>{
+test('turn to Right',()=>{
     const chandrayan3 = new Chandrayan(0,0,0,"N")
-    chandrayan3.turn("N")
-    expect(chandrayan3.direction).toBe("N")
-})
-test('turn to South',()=>{
-    const chandrayan3 = new Chandrayan(0,0,0,"S")
-    chandrayan3.turn("S")
-    expect(chandrayan3.direction).toBe("S")
-})
-test('turn to East',()=>{
-    const chandrayan3 = new Chandrayan(0,0,0,"E")
-    chandrayan3.turn("E")
+    chandrayan3.turn("R")
     expect(chandrayan3.direction).toBe("E")
 })
-test('turn to West',()=>{
-    const chandrayan3 = new Chandrayan(0,0,0,"W")
-    chandrayan3.turn("W")
-    expect(chandrayan3.direction).toBe("W")
+test('turn to Left',()=>{
+    const chandrayan3 = new Chandrayan(0,0,0,"S")
+    chandrayan3.turn("L")
+    expect(chandrayan3.direction).toBe("E")
 })
+
 test('turn to Upward',()=>{
-    const chandrayan3 = new Chandrayan(0,0,0,"U")
+    const chandrayan3 = new Chandrayan(0,0,0,"W")
     chandrayan3.turn("U")
     expect(chandrayan3.direction).toBe("U")
 })
 test('turn to Downward',()=>{
-    const chandrayan3 = new Chandrayan(0,0,0,"D")
+    const chandrayan3 = new Chandrayan(0,0,0,"E")
     chandrayan3.turn("D")
     expect(chandrayan3.direction).toBe("D")
 })
