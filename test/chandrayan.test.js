@@ -54,3 +54,31 @@ describe('Move chandrayan in North direction',()=>{
     })
    
  })
+
+ describe('Move chandrayan in upward direction',()=>{
+    test("Move Forward",()=>{
+        const c= new Chandrayan(0,0,0,'U')
+        c.move('f')
+        expect(c.z).toBe(1)
+    })
+    test("Move Backward",()=>{
+        const c= new Chandrayan(0,0,0,'U')
+        c.move('b')
+        expect(c.z).toBe(-1)
+    })
+   
+ })
+
+ describe('Move chandrayan in downward direction',()=>{
+    test("Move Forward",()=>{
+        const c= new Chandrayan(0,0,0,'D')
+        c.move('f')
+        expect(c.z).toBe(-1)
+    })
+    test("Move Backward",()=>{
+        const c= new Chandrayan(0,0,0,'D')
+        c.move('b')
+        expect(c.z).toBe(1)
+    })
+   
+ })
