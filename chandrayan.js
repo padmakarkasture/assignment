@@ -17,13 +17,18 @@ class Chandrayan {
                 break;
             case 'S':
                 this.y = this.y - distance
-                console.log("this.y", this.y)
                 break;
             case 'E':
                 this.x = this.x + distance
                 break;
             case 'W':
                 this.x = this.x - distance
+                break;
+            case 'U':
+                this.z = this.z + distance
+                break;
+            case 'D':
+                this.z = this.z - distance
                 break;
         }
     }
