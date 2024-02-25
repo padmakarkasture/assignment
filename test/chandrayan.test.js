@@ -3,12 +3,12 @@ describe("Move chandrayan3",()=>{
     describe('Move chandrayan in North direction',()=>{
         test("Move Forward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'N')
-            chandrayan3.move('f')
+            chandrayan3.move('F')
             expect(chandrayan3.y).toBe(1)
         })
         test("Move Backward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'N')
-            chandrayan3.move('b')
+            chandrayan3.move('B')
             expect(chandrayan3.y).toBe(-1)
         })
        
@@ -17,12 +17,12 @@ describe("Move chandrayan3",()=>{
      describe('Move chandrayan in South direction',()=>{
         test("Move Forward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'S')
-            chandrayan3.move('f')
+            chandrayan3.move('F')
             expect(chandrayan3.y).toBe(-1)
         })
         test("Move Backward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'S')
-            chandrayan3.move('b')
+            chandrayan3.move('B')
             expect(chandrayan3.y).toBe(1)
         })
        
@@ -31,12 +31,12 @@ describe("Move chandrayan3",()=>{
      describe('Move chandrayan in East direction',()=>{
         test("Move Forward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'E')
-            chandrayan3.move('f')
+            chandrayan3.move('F')
             expect(chandrayan3.x).toBe(1)
         })
         test("Move Backward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'E')
-            chandrayan3.move('b')
+            chandrayan3.move('B')
             expect(chandrayan3.x).toBe(-1)
         })
        
@@ -45,12 +45,12 @@ describe("Move chandrayan3",()=>{
      describe('Move chandrayan in West direction',()=>{
         test("Move Forward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'W')
-            chandrayan3.move('f')
+            chandrayan3.move('F')
             expect(chandrayan3.x).toBe(-1)
         })
         test("Move Backward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'W')
-            chandrayan3.move('b')
+            chandrayan3.move('B')
             expect(chandrayan3.x).toBe(1)
         })
        
@@ -59,12 +59,12 @@ describe("Move chandrayan3",()=>{
      describe('Move chandrayan in upward direction',()=>{
         test("Move Forward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'U')
-            chandrayan3.move('f')
+            chandrayan3.move('F')
             expect(chandrayan3.z).toBe(1)
         })
         test("Move Backward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'U')
-            chandrayan3.move('b')
+            chandrayan3.move('B')
             expect(chandrayan3.z).toBe(-1)
         })
        
@@ -73,12 +73,12 @@ describe("Move chandrayan3",()=>{
      describe('Move chandrayan in downward direction',()=>{
         test("Move Forward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'D')
-            chandrayan3.move('f')
+            chandrayan3.move('F')
             expect(chandrayan3.z).toBe(-1)
         })
         test("Move Backward",()=>{
             const chandrayan3= new Chandrayan(0,0,0,'D')
-            chandrayan3.move('b')
+            chandrayan3.move('B')
             expect(chandrayan3.z).toBe(1)
         })
        
@@ -110,3 +110,4 @@ test('turn to Downward',()=>{
 })
 
  })
+
