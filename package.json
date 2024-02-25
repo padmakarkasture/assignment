@@ -1,0 +1,14 @@
+{
+  "name": "incubytes-assignent",
+  "version": "1.0.0",
+  "description": "chandrayan3",
+  "main": "chandrayan.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "kasturepadmakar4u@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
