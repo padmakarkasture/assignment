@@ -19,6 +19,9 @@ class Chandrayan {
                 this.y = this.y - distance
                 console.log("this.y", this.y)
                 break;
+            case 'E':
+                this.x = this.x + distance
+                break;
         }
     }
 }
