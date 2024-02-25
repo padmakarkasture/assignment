@@ -4,7 +4,8 @@
   "description": "chandrayan3",
   "main": "chandrayan.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"node chandrayan"
   },
   "author": "kasturepadmakar4u@gmail.com",
   "license": "ISC",
