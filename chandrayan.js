@@ -13,9 +13,10 @@ class Chandrayan {
         }
         switch (this.direction) {
             case 'N':
-                this.y=this.y + distance
+                this.y = this.y + distance
                 break;
+          
         }
-}
+    }
 }
 module.exports = Chandrayan
